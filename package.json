@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --no-cache --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwnow/svelted.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwnow/svelted/issues"
+  },
+  "homepage": "https://github.com/iwnow/svelted#readme",
+  "devDependencies": {
+    "parcel-plugin-svelte": "^1.2.3",
+    "svelte": "^2.15.2"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}
